@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selamat Ulang Tahun!</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <audio id="background-music" loop>
+        <source src="background-music.mp3" type="audio/mpeg">
+        Browser Anda tidak mendukung elemen audio.
+    </audio>
+
+    <div id="particles-js"></div>
+
+    <div id="intro">
+        <h1 class="intro-title">Hai Sophie Grisella Olivia,</h1>
+        <p class="intro-p">Aku punya sesuatu nih...</p>
+        <button id="startButton">Klik Ini Yaa ❤️</button>
+    </div>
+    
+    <div id="minigame-container">
+        <div id="secret-message"></div>
+        <p class="instruction">Tangkap dan matikan semua 24 lilin, bisa ngga?!</p>
+        <div id="game-area"></div>
+        <div id="game-info">
+            <span id="candle-counter">Sisa Lilin: 24</span>
+            <span id="timer">Waktu: 0.0s</span>
+        </div>
+    </div>
+    
+    <div class="card">
+        <p id="message"></p>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
